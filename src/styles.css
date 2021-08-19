@@ -1,15 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
-
-.divMain {
-    width: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.box {
-    width: 40px;
-    height: 40px;
-    background-color: lightskyblue;
-    border: 1px solid black;
-}
+    /*FOLHA DE ESTILO GLOBAL - TODOS OS COMPONENTES*/
+    /* You can add global styles to this file, and also import other style files */
+    
+    body {
+        font-family: Arial;
+    }
+    
+    .box {
+        display: inline-block;
+        /*Unidade relativa ao tamanho da fonte
+        fonte do arquivo: 16px
+        tamanho do elemento: 2rem = 32px
+        */
+        width: 2rem;
+        height: 2rem;
+        background-color: aqua;
+        border: 2px solid gray;
+        margin-right: 1rem;
+    }

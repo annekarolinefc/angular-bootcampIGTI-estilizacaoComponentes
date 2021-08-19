@@ -1,0 +1,8 @@
+/*FOLHA DE ESTILO SOMENTE PARA C1*/
+
+
+/*DEFINE UM ATRIBUTO E SOBRESCREVE A FOLHA DE ESTILO GLOBAL*/
+
+.box {
+    background-color: hotpink;
+}

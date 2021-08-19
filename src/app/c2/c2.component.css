@@ -1,0 +1,8 @@
+/*FOLHA DE ESTILO SOMENTE PARA C2*/
+
+
+/*DEFINE UM ATRIBUTO E SOBRESCREVE A FOLHA DE ESTILO GLOBAL*/
+
+.box {
+    background-color: yellow;
+}
