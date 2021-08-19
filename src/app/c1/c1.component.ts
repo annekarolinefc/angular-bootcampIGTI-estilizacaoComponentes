@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./c1.component.css']
 })
 export class C1Component {
-
+  boxSize: number = 80;
   className: string = "box box2"
-
 }

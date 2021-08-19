@@ -2,13 +2,20 @@
 <h3>
     Componente C1</h3>
 
+<p>Tamanho <input type="number" [(ngModel)]="boxSize" /></p>
+
 <div>
-    <div class="box" [style.width]="'100px'"></div>
-    <div class="box" style="border-color: green;"></div>
-    <!--Exemplo de class binding-->
+    <div [class.box]="true" [class.borderRed]="true"></div>
+    <div class="box"></div>
+    <div class="box" [style.width.px]="boxSize"></div>
+
+    <!--Exemplo de class binding
+      <div class="box" style="border-color: green;"></div>
     <div [class]="className" [class.borderRed]="true"></div>
     <div [class]="{box: false, box2: false}"></div>
     <div [class.box]="false"></div>
+    -->
+
 </div>
 
 <!--UTILIZANDO O COMPONENTE C2-->
