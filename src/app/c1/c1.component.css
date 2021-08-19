@@ -6,3 +6,18 @@
 .box {
     background-color: hotpink;
 }
+
+.borderRed {
+    border-color: red;
+}
+
+
+/*SELETOR ESPECIAL*/
+
+
+/*ira selecionar o componente C1*/
+
+:host {
+    display: block;
+    border: 2px solid green;
+}

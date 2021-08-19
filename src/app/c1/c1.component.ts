@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-c1',
   templateUrl: './c1.component.html',
   styleUrls: ['./c1.component.css']
 })
-export class C1Component implements OnInit {
+export class C1Component {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  className: string = "box box2"
 
 }

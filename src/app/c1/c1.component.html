@@ -3,9 +3,12 @@
     Componente C1</h3>
 
 <div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+    <div class="box" [style.width]="'100px'"></div>
+    <div class="box" style="border-color: green;"></div>
+    <!--Exemplo de class binding-->
+    <div [class]="className" [class.borderRed]="true"></div>
+    <div [class]="{box: false, box2: false}"></div>
+    <div [class.box]="false"></div>
 </div>
 
 <!--UTILIZANDO O COMPONENTE C2-->
