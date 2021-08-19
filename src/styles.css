@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+.divMain {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
